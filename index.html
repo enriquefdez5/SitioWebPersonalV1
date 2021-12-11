@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Enrique Fernández Manzano, uo257742@uniovi.es" />
+    <meta name="description" content = "Página web con información biográfica sobre Enrique" />
+    <meta name="keywords" content="Enrique Fernández Manzano, Appa, biografia, aficiones, deporte, fútbol, triatlón, frontón, música, rock, Galleguillos, pueblo" />
+    
+    <!-- Css general -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+
+    <!-- Css para el elemento address -->
+    <link rel="stylesheet" type="text/css" href="css/direccion.css"/>
+
+    <!-- Css para el elemento img -->
+    <link rel="stylesheet" type="text/css" href="css/imagen_flotando_izquierda.css"/>
+
+    <!-- Css para el aside -->
+    <link rel="stylesheet" type="text/css" href="css/aside_left.css"/>
+
+
+    <!-- Para github -->
+<!--    <base href="https://enriquefdez5.github.io/SitioWebPresentacion/">-->
+    <!-- Para servidor linux -->
+<!--    <base href="http://156.35.98.103/sitioWebPersonal/"> -->
+
+
+    <title>Página web de Enrique - Información personal</title>
+</head>
+<body>
+    <header>
+        <!-- Solo un h1 por documento -->
+        <h1>Página web de Enrique</h1>
+        <nav>
+            <!-- Si lo quiero poner en horizontal debo quitar la lista -->
+            <a accesskey="I" tabindex="0" href="index.html">Index</a>
+            <div class="subnav">
+                <a class="subnava" accesskey="A" tabindex="0" href="aficiones.html">Aficiones</a>
+                <div class="subnav-content">
+                    <a href="aficiones.html#futbol">Fútbol</a>
+                    <a href="aficiones.html#triatlon">Triatlon</a>
+                    <a href="aficiones.html#fronton">Frontón</a>
+                </div>
+            </div>
+            <a accesskey="M" tabindex="0" href="musica.html">Música</a>
+            <div class="subnav">
+                <a class="subnava" accesskey="P" tabindex="0" href="pueblo.html">Pueblo</a>
+                <div class="subnav-content">
+                    <a href="pueblo.html#campanario">Campanario</a>
+                    <a href="pueblo.html#fronton">Frontón</a>
+                    <a href="pueblo.html#iglesia">Iglesia</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Biografía</h2>
+            <figure>
+                <img alt="Imagen de Enrique de vacaciones." src="Multimedia/enrique.jpeg" width="200" height="250">
+                <figcaption>Enrique de vacaciones.</figcaption>
+            </figure>
+            <p>Nombre: Enrique</p>
+            <p>Apellidos: Fernández Manzano</p>
+            <p>Edad: 23 años</p>
+            <p>Lugar de nacimiento: Oviedo</p>
+            <p>
+                Soy Enrique Fernández Manzano, aunque me suelen llamar Kike. En estos momentos estoy cursando el Master
+                en Ingeniería Web de la Universidad de Oviedo al mismo tiempo que trabajo en una beca de un proyecto de
+                investigación de la Fundación Universidad de Oviedo. El poco tiempo libre que tengo me gusta dedicarlo a
+                jugar con Appa, mi mascota, o realizar deporte.
+            </p>
+        </section>
+
+        <aside>
+            <h2>Appa</h2>
+            <p>Esta es mi mascota Appa, es un Border Collie de 1 año de edad.</p>
+            <figure>
+                <img alt="Imagen de Appa disfrutando del sol en un parque." src="Multimedia/appa.jpeg" width="200" height="350">
+                <figcaption>Mi mascota Appa</figcaption>
+            </figure>
+        </aside>
+    </main>
+    <footer>
+        <h2>Información de contacto</h2>
+        <address>
+            <p>Teléfono: 689949652</p>
+            <p>Email: <a href="mailto:uo257742@uniovi.es">uo257742@uniovi.es</a></p>
+            <p>Garmin: <a accessKey="G" tabindex="0" href="https://connect.garmin.com/modern/profile/7b709ff9-618c-4ddf-9fe4-6c448956de56"> Enrique</a></p>
+            <p>Github: <a accesskey="H" tabindex="0" href="https://github.com/enriquefdez5">enriquefdez5</a></p>
+        </address>
+    </footer>
+</body>
+</html>
