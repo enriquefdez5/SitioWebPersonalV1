@@ -78,8 +78,6 @@ a:visited {
     text-decoration: none;
 }
 
-
-
 .subnav {
     float: left;
     overflow: hidden;
@@ -90,6 +88,11 @@ a:visited {
     background-color: black;
     color: white;
 }
+.subnav .subnava:hover {
+    background-color: white;
+    color: black;
+}
+
 .subnav-content {
     display: none;
     background-color: black;
